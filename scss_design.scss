@@ -1,0 +1,121 @@
+// google font
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Tiro+Tamil:ital@0;1&display=swap');
+$font-primary: 'Roboto Slab', serif;
+$font-secondary: 'Tiro Tamil', serif;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav-back 
+{
+    position:sticky;
+    top:0;
+    height: 125px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+
+// web name 
+        .web-name
+        {
+            color:white;
+            font-family: 'Lobster', cursive;
+            font-size: 50px;
+            margin-left: 2rem;
+            margin-bottom: 4rem;
+            padding-bottom:2rem;
+            float: left;
+            font-family: $font-primary;
+        }
+
+        // web elements
+        .elements
+        {
+        
+            float:right;
+            color:rgb(219, 39, 39);
+            flex-direction: row;
+            display: flex;
+            justify-content: space-around;
+            a
+            {
+                font-size: 25px;
+                color:white;
+                margin-top:55px;
+                display: flex;
+                margin-right:25px;
+                justify-content: space-around;
+                text-decoration:none;
+            }
+        }
+}
+// main body (color,gradient)
+.main_body
+{
+    height: 90vh;
+    width: 100%;
+
+background: rgb(58,180,144);
+background: linear-gradient(45deg, rgba(58,180,144,1) 18%, rgba(52,124,223,1) 52%, rgba(216,69,252,1) 78%);
+.image{
+    background-color:white;
+    height: 700px;
+    width: 700px;
+    display: flex;
+    border-radius: 50%;
+    float:left;
+    margin-left:-115px;
+}
+.imageabout{
+    color :white;
+    margin :0;
+    float:right;
+    display:flex;
+    height: 200px;
+    width: 100%;
+    font-size:35px;
+    h1{
+        margin-left:200px;
+        margin-right:200px;
+        font-size:200px;
+        text-align:center;
+        color:rgb(89, 255, 0);
+        span{
+            font-family: $font-secondary;
+            color:black;
+        }
+        
+    }
+    .lorem{
+        color:yellow;
+        margin-left:0;
+        font-size:50px
+    }
+}
+}
+
+.footer 
+{
+    height: 10vh;
+    background-color: rgb(233, 22, 22);
+    margin-bottom: 0;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    a{
+        font-size:3rem;
+        color:white;
+        font-size:3.5rem;
+    
+    }
+
+}
+
+.about{
+    background-color:black;
+    height: 500px;
+    width: 100%;
+}
